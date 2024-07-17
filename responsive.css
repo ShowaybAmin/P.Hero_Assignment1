@@ -1,0 +1,130 @@
+@media only screen and (max-width: 480px) {
+    .container{
+        max-width: 95%;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+
+    .about-me li{
+        margin-left: 0px;
+    }
+
+    .about-me ul{
+        padding-left: 0px;
+    }
+
+    .download-cv{
+        line-height: 50px;
+    }
+
+    .hire-me{
+        background-color: inherit;
+        flex-direction: row;
+    }
+
+    .intro-image{
+        display: block;
+        margin: 50px auto;
+        width: 80%;
+    }
+
+    .skill-box{
+        width: 110%;
+        transform: rotate(0deg);
+        margin: 0px auto;
+        padding-left: 0px;
+    }
+
+    .about{
+        width: 100%;
+        text-align: center;
+    }
+
+    .rating{
+        padding-left: 0px;
+    }
+
+    .rating-year p{
+        text-align: center;
+    }
+    
+    .detail-text{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .detail-text h3, .detail-text p{
+        text-align: center;
+        margin: 16px 10px;
+    }
+
+    .details-box{
+        width: 95%;
+        margin: 30px 0px;
+    }
+
+    .works{
+        margin-left: 16px;
+        margin-right: 16px;
+        border-bottom: 1px white solid ;
+    }
+
+    .work-year-company{
+        flex-direction: row;
+    }
+
+    .award-box{
+        padding: 50px 30px;
+    }
+
+    .frame-47575{
+        width: 95%;
+        margin: auto;
+    }
+    .skillset p{
+        font-size: 16px;
+    }
+
+    .frame-47570-text{
+        margin: 0px 10px;
+    }
+
+    .frame-47568 img{
+        width: 95%;
+        height: auto;
+    }
+
+    .query{
+        font-size: 30px;
+        text-align: center;
+        padding: 60px 10px;
+    }
+    
+    .submit{
+        padding: 10px;
+    }
+
+    .footer-nav{
+        flex-direction: column;
+    }
+
+    .footer-area p{
+        margin-bottom: 21px;
+    }
+
+    .logos {
+        padding-top: 30px;
+    }
+
+    .final-footer{
+        display: flex;
+        gap: 5px;
+        font-size: 12px;
+        justify-content: center;
+        margin: 20px;
+    }
+    
+}
